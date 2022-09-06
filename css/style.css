@@ -37,95 +37,56 @@ img{vertical-align: top;}
 
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 /*--------------------*/
-body{
-	font-family: 'Times New Roman';
-	background: #e8e8e8;
-}
 
 .content{
-	max-width: 841px;
-	margin: 0px auto;
 
+	margin: 100px 200px;
 }
-.content_image{
-	background: url(../img/light_man_copy_26.png) center no-repeat , url(../img/ellipse_1_copy_4.png) 0 0 no-repeat;
-	width: 821px;
-	height: 541px;
-	border: 10px solid #FFF;
-}
-.content_top_header{
-	font-size: 14px;
-	opacity: 0.6;
-	padding-top: 50px;
-	font-family: Arial;	
-}
-.content_top_title{
-	padding: 20px 48px 0px 52px;
-	font-size: 36px;
-	opacity: 0.8;
-
-
-}
-.content_image{
-
-	margin: 87px 0px 0px 0px;
-
-}
-.content_bottom_text{
-	font-size: 24px;
-	padding: 40px 40px 0px;
-	opacity: 0.8;
-
-}
-.content_bottom_text_secondArt{
-	padding: 40px 0 40px 0px;
-
-}
-
-.content_bottom_list{
-	font-size: 20px;
-
-}
-.content_bottom_list_ul{
-	font-size: 20px;
-	font-family: Arial;
-}
-.first{
+.content_list li:nth-child(2):hover{
+	color: red;
 	
-	background:url(../img/icons/li.svg) 0 0 no-repeat ;
-	background-position: left;
-	padding-left: 20px;
 }
-.second{
+.content_list li:nth-child(3):hover{
+	font-style: normal;
+
+}
+.content_list li:nth-child(4){
+	text-transform: uppercase;
+
+}
+
+.content_list li:nth-child(4):hover{
+	text-transform: lowercase;
+
+}
+.content_list li:nth-child(3){
+	font-style: italic;
+
+}
+
+
+.content_list li:first-child:hover{
+	text-decoration:none;
+}
+.content_list li:nth-child(1){
+	text-decoration: line-through;
+}
+
+
+
+.btn {
+	width: 100px;
+	height: 20px;
+	display: inline-block;
+	background-color: aquamarine;
+	border-radius: 20px;
+}
+.spen{
+
+	background: url(/img/icons/li.svg);
+
+}
+.content a{
 	
-	background:url(../img/icons/li.svg) 0 0 no-repeat ;
-	background-position: left;
-	padding-left: 20px;
-	font-style: italic ;
-
-}
-
-.third{
-	
-	background:url(../img/icons/li.svg) 0 0 no-repeat ;
-	background-position: left;
-	padding-left: 20px;
-	font-style: bold;
-}
-.fourth{
-	
-	background:url(../img/icons/li.svg) 0 0 no-repeat ;
-	background-position: left;
-	padding-left: 20px;
-}
-
-.buton{
-
-
-
-}
-.button_box{
-	background: rgb(255, 0, 0) no-repeat;
-	width: 199px;
-	height: 44px;
+	box-shadow: 0px 6px 70px 0p;
 }
